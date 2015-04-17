@@ -21,8 +21,20 @@ $ cd ~/.middleman
 $ git clone https://github.com/nukos/middleman-angular.skeleton
 ```
 
-### Create Project
+## Create Project
 
 ```
-middleman init example.project --template=middleman-angular.skeleton
+$ middleman init example.project --template=middleman-angular.skeleton
+```
+
+### install gems
+
+```
+$ bundle install
+```
+
+### install bower packages
+
+```
+$ bower install
 ```
